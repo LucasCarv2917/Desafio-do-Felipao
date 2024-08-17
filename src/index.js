@@ -5,6 +5,11 @@ let nomeJogador = "LucasC"
 let xp = 3424
 let hanking
 
+// Laços de Repetição
+
+for(i = 0; i < nomeJogador.length; i++){
+
+
 // Operações De Decisão
 
 if(xp <= 1000){
@@ -30,3 +35,4 @@ if(xp <= 1000){
 // Output
 
     console.log("O héroi "+ nomeJogador + " é nivel " + hanking);
+}
