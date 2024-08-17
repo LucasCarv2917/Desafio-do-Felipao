@@ -1,8 +1,11 @@
 // Criar um decisor de hanking
 
+// Variaveis
 let nomeJogador = "LucasC"
 let xp = 3424
 let hanking
+
+// Operações De Decisão
 
 if(xp <= 1000){
     hanking = "Ferro"
@@ -23,5 +26,7 @@ if(xp <= 1000){
 }else if(xp > 10001){
     hanking = "Radiante"
 }
+
+// Output
 
     console.log("O héroi "+ nomeJogador + " é nivel " + hanking);
